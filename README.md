@@ -1,6 +1,6 @@
-# Basic Automation Project
+## Basic Automation Project
 
- Basic Selenium Project Structure
+#### Selenium Web Driver Structured Project
 
  * Java 
  * Maven
