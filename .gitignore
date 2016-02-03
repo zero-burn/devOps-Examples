@@ -68,7 +68,8 @@ tmp/
 local.properties
 .settings/
 .loadpath
-target
+target/
+test-output/
 .DS_Store
 
 # Eclipse Core
