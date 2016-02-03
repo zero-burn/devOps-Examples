@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.qa.jf</groupId>
-	<artifactId>basic-auto-project</artifactId>
+	<groupId>com.sqa.jf</groupId>
+	<artifactId>auto-project</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>Basic Automation Structure</name>
-	<description>Basic Automation Project Structure</description>
+	<name>Basic Automation Project</name>
+	<description>Basic Structure for a Automation Tests</description>
 
 	<properties>
 		<org.selenium-version>2.48.2</org.selenium-version>
@@ -47,14 +47,18 @@
 				<version>2.19.1</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>Basic-Chrome.xml</suiteXmlFile>
-						<!-- <suiteXmlFile>Basic-Firefox.xml</suiteXmlFile>
-						<suiteXmlFile>Basic-IE.xml</suiteXmlFile>
-						<suiteXmlFile>Basic-Safari.xml</suiteXmlFile>-->
+						<suiteXmlFile>Default-Chrome.xml</suiteXmlFile>
+						<suiteXmlFile>Default-Firefox.xml</suiteXmlFile>
+						<suiteXmlFile>Default-IE.xml</suiteXmlFile>
+						<suiteXmlFile>Default-Safari.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
-</project>
 
+
+
+
+
+</project>
