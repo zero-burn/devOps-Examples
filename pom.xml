@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sqa.jf</groupId>
-	<artifactId>auto-project</artifactId>
+	<artifactId>DevOpsExamples</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<name>Basic Automation Project</name>
-	<description>Basic Structure for a Automation Tests</description>
+	<name>DevOps Examples</name>
+	<description>Examples of my DevOps Projects</description>
 
 	<properties>
 		<org.selenium-version>2.48.2</org.selenium-version>
